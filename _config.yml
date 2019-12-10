@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme : mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "dark"#"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "기록의 힘!💪🏻"
+title                    : "기록의 힘! 💪🏻"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seunghee Yang"
@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "양승희"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
-  bio              : "다양한 분야를 경험 해 보고 싶습니다. 안드로이드 개발에 흥미가 있습니다!"
+  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "다양한 분야를 경험 해 보고 싶습니다. \n 안드로이드 개발에 흥미가 있습니다."
   location         : "Somewhere"
   email            :
   links:
