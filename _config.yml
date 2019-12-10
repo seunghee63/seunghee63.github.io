@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "dark"#"default" # "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "경험하고 기록하기"
+title                    : "기록의 힘!💪🏻"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seunghee Yang"
@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "양승희"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am interested in **Android**."
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. 
+  bio              : "다양한 분야를 경험 해 보고 싶습니다. 안드로이드 개발에 흥미가 있습니다!"
   location         : "Somewhere"
   email            :
   links:
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/seunghee63"
+      url: "https://github.com/seunghee63"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
