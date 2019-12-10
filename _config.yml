@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark"#"default" # "air", "aqua", "contrast", "dark",
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "경험하고 기록하기"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
+name                     : "Seunghee Yang"
 description              : "An amazing website."
 url                      : "https://seunghee63.github.io" # the base hostname & protocol for your site e.g.
 baseurl                  : "" # the subpath of your site, e.g. 
