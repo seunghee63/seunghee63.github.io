@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "기록의 힘! 💪🏻"
+title                    : "기록의 힘!"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Seunghee Yang"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "양승희"
   avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "다양한 분야를 경험 해 보고 싶습니다. \n 안드로이드 개발에 흥미가 있습니다."
+  bio              : "구구절절.. 말많2.. 읽다 지칠지도 몰라요.\n 안드로이드에 개발에 흥미가 있습니다."
   location         : "Somewhere"
   email            :
   links:
