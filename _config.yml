@@ -108,8 +108,8 @@ analytics:
 # Site Author
 author:
   name             : "양승희"
-  avatar           :  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "구구절절.. 말많2.. 읽다 지칠지도 몰라요.\n 안드로이드에 개발에 흥미가 있습니다."
+  avatar           : "좌절.jpeg"# path of avatar image, e.g.
+  bio              : "구구절절.. 말많2.. 읽다 지칠지도 몰라요..\n 안드로이드에 개발에 흥미가 있습니다!"
   location         : "Somewhere"
   email            :
   links:
