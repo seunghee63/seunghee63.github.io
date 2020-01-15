@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "양승희"
   avatar           : "좌절.jpeg"# path of avatar image, e.g.
-  bio              : "구구절절.. 말많2.. 읽다 지칠지도 몰라요..\n 안드로이드에 개발에 흥미가 있습니다!"
+  bio              : "구구절절 말많2.. 읽다 지칠지도 몰라요 ꉂꉂ(ᵔᗜᵔ*) \n 안드로이드에 개발에 흥미가 있습니다!"
   location         : "Somewhere"
   email            :
   links:
@@ -293,4 +293,7 @@ defaults:
       share: true
       related: true
 
+#collection
+collections:
+- test
 
