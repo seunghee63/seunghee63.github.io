@@ -1,6 +1,6 @@
 ---
 title: "[Android] Architecture - Model 이란? & Repository Pattern 적용하기"
-date: 2019-12-22 16:05:00 -0400
+date: 2019-12-29 16:05:00 -0400
 categories: 
     - Android
 tags:
