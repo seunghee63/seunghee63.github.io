@@ -63,7 +63,8 @@ Activity -> **Repository** -> Romote/Local DataSource
 
 > 패키징 방법은 절대! 해당 포스팅이 정답이 아닙니다!!!! 
 
-![image-20200120051135414](/Users/yangseunghui/Library/Application%20Support/typora-user-images/image-20200120051135414.png){: width="50%" height="50%"}
+![image](https://user-images.githubusercontent.com/41153567/73078446-85c6b500-3f05-11ea-89f4-d28d927c3e15.png)
+
 
 
 
