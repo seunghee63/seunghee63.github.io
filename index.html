@@ -6,7 +6,6 @@ layout: default
     <div class="teaserimage-image" {% if site.cover %}style="background-image: url({{ site.cover | prepend: site.baseurl }})"{% endif %}>
         Teaser Image
         <ul>
-
         {% assign pages_list = site.pages %}
         {% for node in pages_list %}
           {% if node.title != null %}
