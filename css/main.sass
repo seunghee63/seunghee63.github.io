@@ -58,6 +58,22 @@ body
     background-size: cover
     background-repeat: no-repeat
 
+.posts-list
+  z-index: 2
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    color: #fff
+  li
+    margin: 16px
+    padding: 0
+    border : 0
+    float: left
+    text-decoration: none
+    &:hover
+      color: #333
+
 .teaserimage
   height: 450px
   position: relative
@@ -72,19 +88,8 @@ body
     right: 0
     bottom: 0
     z-index: 1
-    ul
-      list-style: none
-      margin: 0
-      padding: 0
-      color: #fff
-    li
-      margin: 16px
-      padding: 0
-      border : 0
-      float: left
-      text-decoration: none
-      &:hover
-        color: #333
+
+
 
 .blog-header
   width: 100%
@@ -95,19 +100,6 @@ body
   @include box-sizing(border-box)
   @include respond-to(800)
     padding: 0 $rs
-  ul
-    list-style: none
-    margin: 0
-    padding: 0
-    color: #fff
-  li
-    margin: 0
-    padding: 0
-    border : 0
-    float: left
-    text-decoration: none
-    &:hover
-      color: #333
   .blog-logo
     width: $rs*7.5
     height: $rs*7.5
