@@ -19,8 +19,10 @@ jobs:
       - name: Set git user
         run: |
           git config --global user.email "0603yang@naver.com"
-          git config --global user.name "seunghee63" 
-
+          git config --global user.name "seunghee63"
+          git remote set-url origin https://seunghee63:$GH_TOKEN@github.com/seunghee63/seunghee63.github.io.git
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
       - name: Run build script
         run: |
           npm install
