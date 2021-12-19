@@ -1,5 +1,5 @@
 const site = {
-  pathPrefix: '/1',
+  pathPrefix: '/seunghee63.github.io',
   title: '양송이',
   author: 'song2',
   description: '건우 블로그를 클론했습니다 .. . 수정중이에용',

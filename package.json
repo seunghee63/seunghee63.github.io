@@ -73,6 +73,7 @@
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
     "gatsby-plugin-eslint": "^3.0.0",
+    "gh-pages": "^3.2.3",
     "jest": "^26.6.3",
     "prettier": "^2.2.1"
   },
@@ -99,6 +100,7 @@
     "url": "git+https://github.com/seunghee63/blog.git"
   },
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "build:gh": "gatsby build --prefix-paths",
     "dev": "gatsby develop",
