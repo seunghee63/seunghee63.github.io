@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://song2.netlify.app/sitemap/sitemap-index.xml
+Host: https://song2.netlify.app
