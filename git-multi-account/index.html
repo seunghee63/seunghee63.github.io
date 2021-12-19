@@ -50,193 +50,103 @@
     })
   </script><link rel="preconnect" href="https://www.google-analytics.com"/><link rel="dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="icon" href="/favicon-32x32.png?v=4a9773549091c227cd2eb82ccd9c5e3a" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=4a9773549091c227cd2eb82ccd9c5e3a"/><title data-react-helmet="true">Git/Bitbucket 멀티계정 | 양송이</title><meta data-react-helmet="true" name="theme-color" content="#282c35"/><meta data-react-helmet="true" name="description" content="여러개의 Git(or Bitbucket) 계정을 하나의 컴퓨터에서 동시에 사용하는 방법을 알아보자"/><meta data-react-helmet="true" property="og:title" content="Git/Bitbucket 멀티계정"/><meta data-react-helmet="true" property="og:description" content="여러개의 Git(or Bitbucket) 계정을 하나의 컴퓨터에서 동시에 사용하는 방법을 알아보자"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="song2"/><meta data-react-helmet="true" name="twitter:title" content="Git/Bitbucket 멀티계정"/><meta data-react-helmet="true" name="twitter:description" content="여러개의 Git(or Bitbucket) 계정을 하나의 컴퓨터에서 동시에 사용하는 방법을 알아보자"/><style data-styled="" data-styled-version="5.3.0"></style><link as="script" rel="preload" href="/webpack-runtime-a187c71fa6fc956f349f.js"/><link as="script" rel="preload" href="/framework-4f52c153343fdd93d012.js"/><link as="script" rel="preload" href="/app-faf577a38f5c2dcbf7e5.js"/><link as="script" rel="preload" href="/c7f4036448ade77bcbc469147b3c69cfc5e0f7c5-ec61baa8a8ee4cfa70e4.js"/><link as="script" rel="preload" href="/9b64a2f0e4af0cbaba95738558a328f173c08979-78dbee3139dc45d035f4.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-11f1141ed8c6043340a1.js"/><link as="fetch" rel="preload" href="/page-data/git-multi-account/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1522010811.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1558996917.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/1615650028.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3765107650.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body class="light"><script>
               (function themeOper(){const onThemeChangeFuncObj={};let preferredTheme;function setTheme(newTheme){window.__theme=newTheme;preferredTheme=newTheme;document.body.className=newTheme;Object.values(onThemeChangeFuncObj).forEach(func=>func(newTheme));}try{preferredTheme=localStorage.getItem('theme');}catch(err){}window.__setPreferredTheme=function(newTheme){setTheme(newTheme);try{localStorage.setItem('theme',newTheme);}catch(err){}};window.__subOnThemeChange=function(key,func){onThemeChangeFuncObj[key]=func;};window.__unsubOnThemeChange=function(key){Reflect.deleteProperty(onThemeChangeFuncObj,key);};const darkQuery=window.matchMedia('(prefers-color-scheme: dark)');darkQuery.addListener(function(e){window.__setPreferredTheme(e.matches?'dark':'light');});setTheme(preferredTheme||(darkQuery.matches?'dark':'light'));})();
-            </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh;font-family:var(--systemFont)"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2.625rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:0;height:42px;line-height:2.625rem"><a style="box-shadow:none;text-decoration:none;color:var(--textLink)" href="/">양송이</a></h3><div style="height:24px"></div></header><ul class="breadcrumbs breadcrumbs-ul" style="margin-top:-1.5rem"><li class="breadcrumbs-item"><a class="breadcrumbs-element" href="/">Home</a></li><li class="breadcrumbs-item_active"><span class="breadcrumbs-element">Git/Bitbucket 멀티계정</span></li></ul><h1>Git/Bitbucket 멀티계정</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">2021년 12월 7일<!-- --> • ☕️ 6 min read</p><ul class="tag-ul"><li><div class="round"><a class="link" href="/tags/git"><span class="text">git</span></a></div></li><li><div class="round"><a class="link" href="/tags/bitbucket"><span class="text">bitbucket</span></a></div></li><li><div class="round"><a class="link" href="/tags/멀티계정"><span class="text">멀티계정</span></a></div></li></ul><div><h1 id="table-of-contents" style="position:relative;"><a href="#table-of-contents" aria-label="table of contents permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Table of Contents</h1>
-<ol>
-<li><a href="#00.-ISSUE">ISSUE</a></li>
-<li><a href="#01.-%EC%9B%90%EC%9D%B8">원인</a></li>
-<li><a href="#02.-%EC%8B%A4%EC%8A%B5">실습</a></li>
-<li><a href="##01-ssh-%ED%82%A4-%EC%83%9D%EC%84%B1">ssh_키생성</a></li>
-</ol>
-<h1 id="00-issue" style="position:relative;"><a href="#00-issue" aria-label="00 issue permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>00. ISSUE</h1>
-<p>회사에 입사하고 마이그레이션 할 틈도 없이 회사 개발환경을 셋팅 하게 되어, 기본 계정이 회사계정이 되었다. 후에 개인작업을 해야하는 상황에서 private 레포지토리에 접근이 불가능하고 push가 되지 않는 이슈를 마주하게 되었다.</p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"> git push origin master                                                     
-Username for &#39;https://github.com&#39;: seunghee63
-Password for &#39;https://seunghee63@github.com&#39;:
-remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
-remote: Please see [https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/](https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/) for more information.
-fatal: Authentication failed for &#39;[https://github.com/seunghee63/KakaoBankAssignment.git/](https://github.com/seunghee63/KakaoBankAssignment.git/)&#39;</code></pre></div>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/11d27512-423f-4021-8fdf-c5becf2cfd7c/Untitled.png" alt="git-error0"></p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/54a7f931-5bbe-44f1-a346-3fd71151bc42/Untitled.png" alt="git-error1"></p>
+            </script><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><div style="color:var(--textNormal);background:var(--bg);transition:color 0.2s ease-out, background 0.2s ease-out;min-height:100vh;font-family:var(--systemFont)"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header style="display:flex;justify-content:space-between;align-items:center;margin-bottom:2.625rem"><h3 style="font-family:Montserrat, sans-serif;margin-top:0;margin-bottom:0;height:42px;line-height:2.625rem"><a style="box-shadow:none;text-decoration:none;color:var(--textLink)" href="/">양송이</a></h3><div style="height:24px"></div></header><ul class="breadcrumbs breadcrumbs-ul" style="margin-top:-1.5rem"><li class="breadcrumbs-item"><a class="breadcrumbs-element" href="/">Home</a></li><li class="breadcrumbs-item_active"><span class="breadcrumbs-element">Git/Bitbucket 멀티계정</span></li></ul><h1>Git/Bitbucket 멀티계정</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">2021년 12월 20일<!-- --> • ☕️ 5 min read</p><ul class="tag-ul"><li><div class="round"><a class="link" href="/tags/git"><span class="text">git</span></a></div></li><li><div class="round"><a class="link" href="/tags/bitbucket"><span class="text">bitbucket</span></a></div></li><li><div class="round"><a class="link" href="/tags/멀티계정"><span class="text">멀티계정</span></a></div></li></ul><div><h1 id="00-issue" style="position:relative;"><a href="#00-issue" aria-label="00 issue permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>00. ISSUE</h1>
+<p>입사하고 마이그레이션 할 틈도 없이 개발환경을 셋팅 하게 되어 회사 노트북의 기본 계정은 회사계정이 되었다. 후에 개인작업을 해야하는 상황에서 개인 private 레포지토리에 접근이 불가능하고 push가 되지 않는 이슈를 마주하게 되었다.</p>
+<p><strong>fatal: Authentication failed for ’<a href="https://github.com/seunghee63/KakaoBankAssignment.git" target="_blank" rel="nofollow noopener noreferrer">https://github.com/seunghee63/KakaoBankAssignment.git</a>’</strong>
+<img src="./../assets.multi-account-00.png" alt="error-image-0"></p>
+<p><strong>Error: Permission denied (publickey)</strong>
+<strong>fatal: Could not read from remote repository</strong>
+<img src="./../assets.multi-account-01.png" alt="error-image-1"></p>
 <h1 id="01-원인" style="position:relative;"><a href="#01-%EC%9B%90%EC%9D%B8" aria-label="01 원인 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>01. 원인</h1>
 <blockquote>
 <p><a href="https://github.blog/2020-07-30-token-authentication-requirements-for-api-and-git-operations/" target="_blank" rel="nofollow noopener noreferrer">In July 2020</a>, we announced our intent to require the use of token-based authentication (for example, a personal access, OAuth, or GitHub App installation token) for all authenticated Git operations. Beginning August 13, 2021, we will no longer accept account passwords when authenticating Git operations on GitHub.com.</p>
 </blockquote>
-<p><a href="https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/" target="_blank" rel="nofollow noopener noreferrer">https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/</a></p>
 <p>이전에는 아이디와 비밀번호만 있으면 권한을 받고 접근할 수 있었는데, 이제는 토큰 기반 인증만을 허용하는 방식으로 변경되었다.</p>
-<p>이럴 때는 계정 마다 SSH key를 만들어서 등록해서 사용하면 된다.</p>
-<p>SSH key는 공개키와 비공개키로 구성되어 있다. 키를 생성하면 공개키와 비공개키가 만들어지게 되는데, 비공개키는 로컬 머신(클라이언트)에 위치하게 되고, 공개키는 리모트 머신(깃 혹은 빗버킷)에 위치해야 한다.</p>
-<p>회사계정이 비트버킷이라 비트버킷 계정을 추가하는 방법을 찾아보다 보니 조금 더 디테일하게 git 계정을 연동시키는 방법을 찾아보게 되었다.</p>
+<p>이때는 계정 마다 SSH key를 만등 후 등록해서 사용하면 된다.
+SSH key는 공개키와 비공개키로 구성되어 있어 키를 생성하면 공개키와 비공개키가 만들어지게 된다. 생성된 비공개키는 로컬 머신(클라이언트)에 위치해야 하며, 공개키는 리모트 머신(깃 혹은 빗버킷)에 위치해야 한다. 본 게시글은 SSH Key를 생성 후 각각의 키를 적절한 위치에 위치시키고 SSH를 통해 접속하는 과정을 정리했다.</p>
+<p>회사계정이 비트버킷이라 본 게시글은 깃허브와 비트버킷 계정을 동시에 사용하는 방법을 서술했는데, 사실상 깃허브 계정 2개를 동시에 사용하는 것과 방법이 같다. 오히려 git과 bitbucket의 차이를 비교하며 보다보면 조금 더 디테일 하게 학습이 가능할 것이다.</p>
 <h1 id="02-실습" style="position:relative;"><a href="#02-%EC%8B%A4%EC%8A%B5" aria-label="02 실습 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>02. 실습</h1>
-<ul>
-<li>
-<p><strong>연결된 계정 확인</strong></p>
-<p><code class="language-text"> git config --list</code> 명령어를 통해 계정이 해당 데스크탑이 연결된 계정을 확인 할 수 있다.</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a5e76068-84e2-4d5b-b1b3-27b182aa67dc/Untitled.png" alt="Untitled"></p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/089d8940-59ab-4dad-b3ba-f14b2572ce43/Untitled.png" alt="Untitled"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">credential.helper=osxkeychain
-core.excludesfile=/Users/yangseunghui/.gitignore_global
-difftool.sourcetree.cmd=opendiff &quot;$LOCAL&quot; &quot;$REMOTE&quot;
-difftool.sourcetree.path=
-mergetool.sourcetree.cmd=/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh &quot;$LOCAL&quot; &quot;$REMOTE&quot; -ancestor &quot;$BASE&quot; -merge &quot;$MERGED&quot;
-mergetool.sourcetree.trustexitcode=true
-**user.name=song0603
-user.email=song0603@회사계정.com**
-
-commit.template=/Users/yangseunghui/.stCommitMsg
-core.repositoryformatversion=0
-core.filemode=true
-core.bare=false
-:</code></pre></div>
-</li>
-</ul>
+<h2 id="00-연결된-계정-확인" style="position:relative;"><a href="#00-%EC%97%B0%EA%B2%B0%EB%90%9C-%EA%B3%84%EC%A0%95-%ED%99%95%EC%9D%B8" aria-label="00 연결된 계정 확인 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>00) 연결된 계정 확인</h2>
+<p><code class="language-text">git config --list</code> 명령어를 통해 해당 데스크탑에 연결된 계정을 확인 할 수 있다.
+<img src="./../assets.multi-account-02.png" alt="git-config-list"></p>
 <h2 id="01-ssh-키-생성" style="position:relative;"><a href="#01-ssh-%ED%82%A4-%EC%83%9D%EC%84%B1" aria-label="01 ssh 키 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>01) ssh 키 생성</h2>
-<p><strong>ssh-keygen을 이용해 키쌍 생성</strong></p>
-<p><code class="language-text">ssh-keygen -t rsa -C &quot;개인/회사 계정&quot;</code></p>
-<p>ssh-keygen 라는 프로그램을 활용하여 개인계정과 회사계정의 ssh 키를 각각 생성 한다.</p>
-<ul>
-<li>rsa 라는 암호화 방식으로 키를 생성한다.</li>
-</ul>
-<h3 id="01-1-seunghee63개인계정-키-생성" style="position:relative;"><a href="#01-1-seunghee63%EA%B0%9C%EC%9D%B8%EA%B3%84%EC%A0%95-%ED%82%A4-%EC%83%9D%EC%84%B1" aria-label="01 1 seunghee63개인계정 키 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><strong>01-1) seunghee63(개인계정) 키 생성</strong></h3>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cab11c55-d8c2-4530-88fc-21f554397b24/Untitled.png" alt="Untitled"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">** ssh-keygen -t rsa -C &quot;0603yang@개인계정.com&quot;**
-Generating public/private rsa key pair.
-**Enter file in which to save the key (/Users/yangseunghui/.ssh/id_rsa): /Users/yangseunghui/.ssh/id_rsa_personal**
-Created directory &#39;/Users/yangseunghui/.ssh&#39;.
-**Enter passphrase (empty for no passphrase):
-Enter same passphrase again:**
-Your identification has been saved in /Users/yangseunghui/.ssh/id_rsa_personal.
-Your public key has been saved in /Users/yangseunghui/.ssh/id_rsa_personal.pub.
-The key fingerprint is:
-SHA256:iULBetClbDqiVUW0DZScJaup/fou06pqbspuotLn6Yo 0603yang@개인계정.com
-The key&#39;s randomart image is:
-+---[RSA 3072]----+
-|   o.*O+.        |
-|  ..o++*         |
-|   o* o .        |
-|  .=.o . .       |
-|. +.+ . S        |
-|.o + .           |
-|... ..           |
-|+=. +o.          |
-|E=o**B+          |
-+----[SHA256]-----+</code></pre></div>
+<p><strong>ssh-keygen을 이용해 키쌍 생성</strong>
+<code class="language-text">ssh-keygen -t rsa -C &quot;개인/회사 계정&quot;</code>
+ssh-keygen 라는 프로그램을 활용하여 개인계정과 회사계정의 ssh 키를 각각 생성 한다.</p>
+<h3 id="01-1-seunghee63개인계정-키-생성" style="position:relative;"><a href="#01-1-seunghee63%EA%B0%9C%EC%9D%B8%EA%B3%84%EC%A0%95-%ED%82%A4-%EC%83%9D%EC%84%B1" aria-label="01 1 seunghee63개인계정 키 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>01-1) seunghee63(개인계정) 키 생성</h3>
+<p><img src="./../assets.multi-account-03.png" alt="private-key"></p>
 <ol>
 <li><strong>/Users/yangseunghui/.ssh/id_rsa_personal</strong></li>
 </ol>
 <p>.ssh 폴더 하단에 파일이름을 입력한다.
 2. 키쌍 생성 중에 암호 입력을 요청하는 단계가 있는데, 이때 암호를 입력하지 말고 넘겨야 한다. 암호를 입력하면 Git/Bitbucket 서버와는 키로 인증함에도 불구하고 ssh-key를 사용할 때 암호를 입력해야 하는 번거로움이 생긴다.</p>
-<h3 id="01-2-song2회사계정-키-생성" style="position:relative;"><a href="#01-2-song2%ED%9A%8C%EC%82%AC%EA%B3%84%EC%A0%95-%ED%82%A4-%EC%83%9D%EC%84%B1" aria-label="01 2 song2회사계정 키 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>01-2) <strong>song2(회사계정) 키 생성</strong></h3>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f0b6d3a-c2e0-4371-ba1b-1e87d03a622d/Untitled.png" alt="Untitled"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">** ssh-keygen -t rsa -C &quot;song0603@회사계정.com&quot;**
-Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/yangseunghui/.ssh/id_rsa): /Users/yangseunghui/.ssh/id_rsa_company
-**Enter passphrase (empty for no passphrase):
-Enter same passphrase again:**
-Your identification has been saved in /Users/yangseunghui/.ssh/id_rsa_company.
-Your public key has been saved in /Users/yangseunghui/.ssh/id_rsa_company.pub.
-The key fingerprint is:
-SHA256:LEq8PbatX2hNfXLv+oPLXbRJWzI7yqJi926s41tnq4E song0603@회사계정.com
-The key&#39;s randomart image is:
-+---[RSA 3072]----+
-|                 |
-|                 |
-|                 |
-|   .   .   .     |
-|    o . S . o =.o|
-|   . + . =   +.*=|
-|    o + E.= o ++o|
-|     .o=oo+=.+.+.|
-|     .o*BO+o+oo++|
-+----[SHA256]-----+</code></pre></div>
+<h3 id="01-2-song2회사계정-키-생성" style="position:relative;"><a href="#01-2-song2%ED%9A%8C%EC%82%AC%EA%B3%84%EC%A0%95-%ED%82%A4-%EC%83%9D%EC%84%B1" aria-label="01 2 song2회사계정 키 생성 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>01-2) song2(회사계정) 키 생성</h3>
+<p><img src="./../assets.multi-account-04.png" alt="private-key"></p>
 <ol>
 <li><strong>/Users/yangseunghui/.ssh/id_rsa_company</strong></li>
 <li>마찬가지로 암호는 입력하지 않고 넘긴다.</li>
 </ol>
 <h3 id="01-3-확인" style="position:relative;"><a href="#01-3-%ED%99%95%EC%9D%B8" aria-label="01 3 확인 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>01-3) 확인</h3>
-<p><code class="language-text">ls ~/.ssh</code> 명령어 실행</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc402746-b000-4025-b09e-cba895b3e86a/Untitled.png" alt="Untitled"></p>
+<p><code class="language-text">ls ~/.ssh</code> 명령어 실행
+<img src="./../assets.multi-account-05.png" alt="confirm-ssh"></p>
 <ul>
-<li>.pub 확장자의 공개키와 확장자가 명시되어 있지 않은 비공개키가 한쌍씩 생성되면 성공!</li>
+<li>.pub 확장자의 공개키와 확장자가 명시되어 있지 않은 비공개키가 한쌍씩 생성되면 성공 한 것이다.</li>
 </ul>
 <h2 id="02-ssh-agent-에-키-등록" style="position:relative;"><a href="#02-ssh-agent-%EC%97%90-%ED%82%A4-%EB%93%B1%EB%A1%9D" aria-label="02 ssh agent 에 키 등록 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>02) ssh-agent 에 키 등록</h2>
-<p>매번 SSH 키 패스워드 입력을 하는것은 번거롭다. 이때 ssh-agent에 키를 등록해두면 좀 더 편리하게 사용할 수 있다. ssh-agnet는 백그라운드에서 SSH 인증 정보를 관리합니다. ssh-agent가 실행되어있는지부터 확인한 후,
+<p>매번 SSH 키 패스워드 입력을 하는것은 번거롭다. 이때 ssh-agent에 키를 등록해두면 좀 더 편리하게 사용할 수 있다. ssh-agnet는 백그라운드에서 SSH 인증 정보를 관리하며, ssh-agent가 실행중인지 확인한 후 키를 ssh-agent 에 등록해야 한다.
 [출처] <a href="https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/" target="_blank" rel="nofollow noopener noreferrer">https://www.lainyzine.com/ko/article/creating-ssh-key-for-github/</a></p>
-<p>키 사용을 위해서는 ssh-agent 에 등록해야 한다.</p>
+<h3 id="02-1-확인" style="position:relative;"><a href="#02-1-%ED%99%95%EC%9D%B8" aria-label="02 1 확인 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>02-1) 확인</h3>
+<p><img src="./../assets.multi-account-06.png" alt="confirm-ssh-agent"></p>
 <ul>
-<li>
-<p>(실행 안 되어 있다면) ssh-agent 실행하고 ssh-add를 이용해 키 추가</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4eecdc4d-3293-40ad-a667-ea8f40ff5494/Untitled.png" alt="Untitled"></p>
-<ul>
-<li>SSH 키 목록</li>
-<li>The agent has no identities.</li>
-<li><strong>출처</strong>:<a href="https://latentis.tistory.com/47" target="_blank" rel="nofollow noopener noreferrer">https://latentis.tistory.com/47</a> [Meandering Trajectory]</li>
+<li>‘The agent has no identities’ 라는 문구가 나오면 ssh-agent에 등록된 키가 없다는 것이다.</li>
 </ul>
-</li>
-</ul>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9198fe15-8b91-4f64-829e-d4600c5ee1ee/Untitled.png" alt="Untitled"></p>
+<h3 id="02-2-ssh-agent-키-등록" style="position:relative;"><a href="#02-2-ssh-agent-%ED%82%A4-%EB%93%B1%EB%A1%9D" aria-label="02 2 ssh agent 키 등록 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>02-2) ssh-agent 키 등록</h3>
 <ul>
-<li>
+<li>등록된 키가 없다면 ssh-add를 이용해 계정1(개인계정)과 계정2(회사계정)의 비공개 키를 추가한다.</li>
+</ul>
+<p><img src="./../assets.multi-account-07.png" alt="activate-ssh-agent"></p>
 <p><strong>세션 유효기간 설정</strong></p>
-<p>옵션으로 -t를 주고 시간을 설정하면 유효기간을 설정할 수 있다.</p>
-<p><strong>출처</strong>:<a href="https://www.lesstif.com/lpt/ssh-agent-private-key-ssh-add-123338804.html" target="_blank" rel="nofollow noopener noreferrer">https://www.lesstif.com/lpt/ssh-agent-private-key-ssh-add-123338804.html</a></p>
-</li>
+<ul>
+<li>옵션으로 -t를 주고 시간을 설정하면 유효기간을 설정할 수 있다.</li>
 </ul>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dde4330c-ab52-4166-8ce7-20af155f75df/Untitled.png" alt="Untitled"></p>
-<p><strong>확인</strong></p>
-<p>ssh-add -l</p>
-<p><code class="language-text">eval &quot;$(ssh-agent -s)&quot;</code> 명령어 실행 ?</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa71bc4d-455a-466d-a4e0-8168fa56f1f4/Untitled.png" alt="Untitled"></p>
-<h2 id="03-ssh-config-추가" style="position:relative;"><a href="#03-ssh-config-%EC%B6%94%EA%B0%80" aria-label="03 ssh config 추가 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>03) SSH config 추가</h2>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/595d41da-da18-402a-8a3c-59aeddb73dde/Untitled.png" alt="Untitled"></p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09e6f8bc-2b6c-44e3-adb3-1fde64754575/Untitled.png" alt="Untitled"></p>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text"># company
-Host bitbucket.org-song0603
-HostName bitbucket.org
-User song0603
-IdentityFile ~/.ssh/id_rsa_company
-# personal
-Host github.com-seunghee63
-HostName github.com
-User seunghee63
-IdentityFile ~/.ssh/id_rsa_personal</code></pre></div>
-<p>호스트와 호스트네임은 SSH 방식을 통해 내려받을때</p>
+<p><img src="./../assets.multi-account-08.png" alt="ssh-time-limit">
+<strong>출처</strong>:<a href="https://www.lesstif.com/lpt/ssh-agent-private-key-ssh-add-123338804.html" target="_blank" rel="nofollow noopener noreferrer">https://www.lesstif.com/lpt/ssh-agent-private-key-ssh-add-123338804.html</a></p>
+<h3 id="02-3-확인" style="position:relative;"><a href="#02-3-%ED%99%95%EC%9D%B8" aria-label="02 3 확인 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>02-3) 확인</h3>
+<p><code class="language-text">ssh-add -l</code> 명령어를 통해서는 등록되어있는 Key 의 목록을,
+<code class="language-text">eval &quot;$(ssh-agent -s)&quot;</code> 명령어를 통해서는 동작중인 프로세스를 확인 할 수 있다.
+<img src="./../assets.multi-account-09.png" alt="confirm-ssh-agent"></p>
+<h2 id="03-ssh-접속-설정" style="position:relative;"><a href="#03-ssh-%EC%A0%91%EC%86%8D-%EC%84%A4%EC%A0%95" aria-label="03 ssh 접속 설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>03) SSH 접속 설정</h2>
+<p><code class="language-text">vi .ssh/config</code>
+<img src="./../assets.multi-account-10.png" alt="ssh-config"></p>
 <h2 id="04-github--bitbucket-에-ssh-키-등록하기" style="position:relative;"><a href="#04-github--bitbucket-%EC%97%90-ssh-%ED%82%A4-%EB%93%B1%EB%A1%9D%ED%95%98%EA%B8%B0" aria-label="04 github  bitbucket 에 ssh 키 등록하기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>04) github &#x26; Bitbucket 에 ssh 키 등록하기</h2>
-<p><code class="language-text">cat ~~~</code></p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/479d05a2-38d1-4888-a22d-d0cf8d8311ff/Untitled.png" alt="Untitled"></p>
-<p>동일한 키를 서로 다른 계정에 등록하려고 하면 이미 다른 계정에서 사용되고 있다는 에러와 함께 빗버킷에서 등록을 거부한다.</p>
-<p>출처: <a href="https://latentis.tistory.com/47" target="_blank" rel="nofollow noopener noreferrer">https://latentis.tistory.com/47</a> [Meandering Trajectory]</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/875f032a-f159-4343-8ce4-420544394598/Untitled.png" alt="개인 계정"></p>
-<p>개인 계정</p>
-<p><strong>확인</strong></p>
-<p><code class="language-text">ssh -T [HostName]</code></p>
+<p><code class="language-text">cat 공개키</code> 명령어를 실행하면 키 값이 출력된다.
+해당 내용을 복사 한 후, 개인 계정의 키 값은 회사 계정의 SSH key 등록을, 회사 계정의 키 값은 개인 계정의 SSH key에 등록하면 된다.
+<img src="./../assets.multi-account-11.png" alt="cat"></p>
+<p><strong>개인계정(github)</strong>
+<img src="./../assets.multi-account-12.png" alt="personal"></p>
+<p><strong>회사계정(bitbucket)</strong>
+<img src="./../assets.multi-account-13.png" alt="company"></p>
+<p><strong>확인</strong>
+<code class="language-text">ssh -T [HostName]</code>
+필자의 경우 github와 bitbucket 모든 도메인을 사용했기에 두 개를 모두 테스트 해 보았다.</p>
 <ul>
 <li><code class="language-text">ssh -T git@github.com</code></li>
 <li><code class="language-text">ssh -T git@bitbucket.org</code></li>
 </ul>
-<p>하나씩 다 테스트 해 보았다 …</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/53095af0-4d14-4f5a-8517-6a5ee8037610/Untitled.png" alt="Untitled"></p>
+<p><img src="./../assets.multi-account-14.png" alt="confirm"></p>
 <h2 id="05-gitconfig-수정" style="position:relative;"><a href="#05-gitconfig-%EC%88%98%EC%A0%95" aria-label="05 gitconfig 수정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>05) gitConfig 수정</h2>
-<p>여러 SSH key를 쓰는 경우 GitHub이 어떤 계정으로 push를 하는지 구분할 수 없기 때문에 계정 전환이 필요하다.</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cd1cfa2e-fa87-467f-be78-43c1407de696/Untitled.png" alt="Untitled"></p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/836fb158-b9e9-4a8d-9b91-a244375f1f90/Untitled.png" alt="Untitled"></p>
-<p>개인 프로젝트 같은경우 AndroidStudioProjects 와 blog 디렉토리에 프로젝트가 담겨있는데, 해당 디렉토리에서 명령어를 실행 할 경우 개인 계정으로 작업이 되도록 수정했다.</p>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/10507086-f46a-4685-bb31-11bfb80ff59f/Untitled.png" alt="Untitled"></p>
+<p>여러 SSH key를 쓰는 경우 GitHub이 어떤 계정으로 push를 하는지 구분할 수 없기 때문에 계정 전환이 필요하다. 그때 그때 config 의 user.name 과 user.email 을 수정하는 방법도 있지만, <code class="language-text">.gitconfig</code>에서 약간의 문법을 수정하면 한번의 설정으로 적절한 계정전환이 가능하다.</p>
+<p><img src="./../assets.multi-account-15.png" alt="confirm">
+<img src="./../assets.multi-account-18.png" alt="confirm">
+주의해야 하는 부분은 두개의 <code class="language-text">[includeif ~~]</code> 구문이다. 필자는 개인 프로젝트가 AndroidStudioProjects 와 blog 디렉토리에 담겨있는데, 해당 디렉토리에서 git 명령어를 실행 할 경우에는 회사계정이 유저로 등록된 gitconfig 파일이 아니라 개인계정이 유저로 등록된 gitconfig-personal 파일이 실행되도록 했다.</p>
+<p><img src="./../assets.multi-account-16.png" alt="confirm"></p>
+<p>해당 과정을 수행하고 나면, <code class="language-text">git clone git@${hostname}:${user.name}/${repository_name}.git</code> 와 같이 권한을 가지고 프로젝트를 clone 받을 필요가 없어진다.</p>
 <h1 id="03-결과" style="position:relative;"><a href="#03-%EA%B2%B0%EA%B3%BC" aria-label="03 결과 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>03. 결과</h1>
-<p><img src="https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa04cfd2-5ad9-4983-8259-c57d820e32ef/Untitled.png" alt="Untitled"></p>
-<p>삽질을 너무 많이해서 ..</p>
+<p><code class="language-text">git config --list</code> 명령어를 통해 데스크탑에 연결된 계정들과 각각의 계정이 실행되는 조건을 확인 할 수 있다.
+<img src="./../assets.multi-account-17.png" alt="confirm"></p>
 <hr>
-<p>덧붙임</p>
-<p>설정을 완벽하게 해 놓았는데, 후에 똑같은 이슈가 발생한다면 02) ssh-agent 에 키 등록</p>
+<h3 id="덧붙임" style="position:relative;"><a href="#%EB%8D%A7%EB%B6%99%EC%9E%84" aria-label="덧붙임 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>덧붙임</h3>
+<p>이미 ssh 키도 생성후 등록까지 다 해서 제대로 동작하는 것을 확인했는데, 후에 똑같은 이슈가 발생할 수 있다. 그때는 <code class="language-text">02) ssh-agent</code> 의 키 ssh-agent에 키를 등록하는 과정을 반복하면 된다.</p>
 <blockquote>
 <p>ref</p>
 </blockquote>
