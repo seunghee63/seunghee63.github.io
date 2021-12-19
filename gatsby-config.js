@@ -1,6 +1,5 @@
 const { toPairs } = require('ramda');
 const {
-  pathPrefix,
   title,
   author,
   description,
@@ -18,7 +17,6 @@ const supportedLanguages = require('./config').supportedLanguages;
 require('dotenv').config();
 
 module.exports = {
-  pathPrefix,
   siteMetadata: {
     title,
     author,
