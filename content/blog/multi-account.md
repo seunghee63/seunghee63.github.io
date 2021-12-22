@@ -2,13 +2,13 @@
 title: Git/Bitbucket 멀티계정
 date: "2021-12-20T11:00:00.169Z"
 description: "여러개의 Git(or Bitbucket) 계정을 하나의 컴퓨터에서 동시에 사용하는 방법을 알아보자"
-tags: ['git', 'bitbucket', '멀티계정']
+tags: ['git', 'bitbucket', 'multi account']
 disqus: true
 ---
 
 # 00. ISSUE
 
-입사하고 마이그레이션 할 틈도 없이 개발환경을 셋팅하게 되어, 회사 노트북의 기본 계정은 회사계정이 되었다. 후에 개인작업을 해야 하는 상황에서 개인 private 레포지토리에 접근이 불가능하고 push가 되지 않는 이슈를 마주하게 되었다. 
+입사하고 마이그레이션 할 틈도 없이 개발환경을 셋팅하게 되어, 회사계정이 기본 계정이 되었다. 후에 개인작업을 해야 하는 상황에서 개인 private 레포지토리에 접근이 불가능하고 push가 되지 않는 이슈를 마주하게 되었다. 
 
 > **fatal: Authentication failed for 'https://gitgub.com/레포지토리 '**
 ![error-image-0](../assets/multi-account-00.png)
@@ -37,13 +37,19 @@ SSH key는 공개키와 비공개키로 구성되어 있어 키를 생성하면 
 # 02. 실습
 
 ## 00) 연결된 계정 확인
-`git config --list` 명령어를 통해 해당 데스크탑에 연결된 계정을 확인 할 수 있다.
+해당 데스크탑에 연결된 계정을 확인 한다.
+```
+git config --list
+```
 
 ![git-config-list](../assets/multi-account-02.png)
 
 ## 01) ssh 키 생성
-`ssh-keygen -t rsa -C "개인/회사 계정"`</br>
+```
+ssh-keygen -t rsa -C "개인/회사 계정"
+```
 ssh-keygen 라는 프로그램을 활용하여 개인계정과 회사계정의 ssh 키를 각각 생성 한다. 해당 명령어를 입력하고 나면 ssh key를 생성하는 과정에서 두번 입력모드로 전환이 되는데, 그 때 입력해야하는 것은 다음과 같다.
+
 
 ### 01-1) seunghee63(개인계정) 키 생성
 ![private-key](../assets/multi-account-03.png)
@@ -56,9 +62,11 @@ ssh-keygen 라는 프로그램을 활용하여 개인계정과 회사계정의 s
   2. 마찬가지로 암호는 입력하지 않고 넘긴다.
 
 ### 01-3) 확인
-
-`ls ~/.ssh` 명령어 실행하여 .ssh 폴더 안에 잘 생성되어있는지 확인한다.
-.pub 확장자의 공개키와 확장자가 명시되어 있지 않은 비공개키가 한쌍씩 생성되면 성공 한 것이다.</br></br>
+ 명령어 실행하여 .ssh 폴더 안에 잘 생성되어있는지 확인한다.
+.pub 확장자의 공개키와 확장자가 명시되어 있지 않은 비공개키가 한쌍씩 생성되면 성공 한 것이다.
+```
+ls ~/.ssh
+```
 ![confirm-ssh](../assets/multi-account-05.png)
 
 
@@ -66,12 +74,18 @@ ssh-keygen 라는 프로그램을 활용하여 개인계정과 회사계정의 s
 매번 SSH 키 패스워드 입력을 하는것은 번거롭다. 이때 백그라운드에서 SSH 인증 정보를 관리하는 ssh-agent에 키를 등록해두면 좀 더 편리하게 사용할 수 있다. ssh-agent가 실행중인지 확인한 후 키를 ssh-agent 에 등록해야 한다.
 
 ### 02-1) ssh-agent 에 등록된 ssh 키 확인
-`ssh-add -l` 명령어를 통해 등록된 ssh 키를 확인하자.
-**'The agent has no identities'** 라는 문구가 나오면 ssh-agent에 등록된 키가 없다는 것이다.</br></br>
+등록된 ssh 키를 확인 해 보자.
+**'The agent has no identities'** 라는 문구가 나오면 ssh-agent에 등록된 키가 없다는 것이다.
+```
+ssh-add -l
+```
 ![confirm-ssh-agent](../assets/multi-account-06.png)</br>
 
 ### 02-2) ssh-agent 키 등록
-등록된 키가 없다면 `ssh-add` 명령어를 이용해 개인계정과 회사계정의 비공개 키를 추가한다. 옵션으로 -t를 주고 시간을 설정하면 유효기간을 설정할 수 있다. </br></br>
+등록된 키가 없다면 `ssh-add` 명령어를 이용해 개인계정과 회사계정의 비공개 키를 추가한다. 옵션으로 -t를 주고 시간을 설정하면 유효기간을 설정할 수 있다.
+```
+ssh-add "개인/ 회사 비밀키"
+```
 ![activate-ssh-agent](../assets/multi-account-07.png)</br>
 ![ssh-time-limit](../assets/multi-account-08.png)
 
@@ -129,7 +143,7 @@ IdentityFile ${비밀키 경로}
 
 ---
 ### 덧붙임
-이미 ssh 키도 생성후 등록까지 다 해서 제대로 동작하는 것을 확인했는데, 후에 똑같은 이슈가 발생할 수 있다. 그때는 `02) ssh-agent` 의 키 ssh-agent에 키를 등록하는 과정을 반복하면 된다.
+이미 ssh 키도 생성후 등록까지 다 해서 제대로 동작하는 것을 확인했는데, 시간이 지난 후 똑같은 이슈가 발생할 수 있다. 그때는 `02) ssh-agent` 의 키 ssh-agent에 키를 등록하는 과정을 반복하면 된다.
 
 > ref
 >
