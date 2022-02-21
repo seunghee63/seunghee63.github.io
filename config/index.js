@@ -2,7 +2,7 @@ const site = {
   pathPrefix: '/1',
   title: '양송이',
   author: 'song2',
-  description: '건우 블로그를 클론했습니다 .. . 수정중이에용',
+  description: '.',
   siteUrl: 'https://song2.netlify.app/',
   // twitter: 'kylemathews',
   github: 'seunghee63',
