@@ -10,7 +10,7 @@ disqus: true
 
 안드로이드에서는 이미지를 로딩할 때 Picasso, Glide, Coil 과 같은 이미지 처리 라이브러리를 주로 사용한다. 구글도 Bitmap 관리의 복잡성을 근거로 Glide 사용을 권장하고 있다.
 
-기존 Glide 를 사용하고 있던 프로젝트에 Coil 을 도입하는 과정에서, Coil 과 Glide의 차이를 살펴보게 되었고 이미지 라이브러리들의 동작 원리 까지 학습한 후 가벼운 ImageLoader 를 구현해 보았다.
+기존 Glide 를 사용하고 있던 프로젝트에 Coil 을 도입하는 과정에서, Coil 과 Glide 의 차이를 살펴보게 되었고 이미지 라이브러리들의 동작 원리 까지 학습한 후 가벼운 ImageLoader 를 구현해 보았다.
 
 함께 이해하고 구현해 보도록 하자.
 </br>
@@ -20,7 +20,7 @@ disqus: true
 
 
 ## | overview
-이미지 로더의 동작 순서는 다음과 같다.
+이미지 로더의 동작 과정은 다음과 같다.
 
 1. 이미지 로딩 요청
 2. memory cache 에 bitmap 존재 여부 확인
